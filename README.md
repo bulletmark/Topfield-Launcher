@@ -78,7 +78,6 @@ looks and runs as well as on linux.
    which will unpack .bz2 files. Get it from
    <http://www.rarsoft.com/download.htm>. A recent
    version of Winzip will also unpack bz2 files.
-
    Copy the dateutil\dateutil folder to C:\Python2X\Lib\site-packages\.
    Make sure you copy the "\dateutil" sub-folder only! You can then
    delete the dateutil stuff you downloaded.
