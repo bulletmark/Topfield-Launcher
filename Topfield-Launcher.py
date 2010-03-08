@@ -474,6 +474,7 @@ class MyPanel(wx.Panel):
 
             # Else, set new directory and repopulate
             self.dir = ent.dir
+            self.dirent.SetLabel(self.dir)
 
         self.populate()
 
