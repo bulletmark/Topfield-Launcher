@@ -2,13 +2,13 @@
 # Mark Blakeney, Mar 2010.
 
 '''
-Topfield-Launcher connects to the specified ftpd-topfield
-host and lists recorded files available on the connected
-Topfield PVR. The user can navigate about the PVR
-directories and select a file to play locally to his PC. The
-Topfield-Launcher will start the specified media player (VLC
-is recommended) to stream the requested file remotely to
-be viewed on the user's PC screen.
+Topfield-Launcher connects to a specified ftpd-topfield host
+and lists recorded files available on the connected Topfield
+PVR. The user can navigate about the PVR directories and
+select a file to play to his PC. The Topfield-Launcher will
+start the specified media player (VLC is recommended) to
+stream the requested file from the remote PVR, to the user's
+screen.
 
 Topfield-Launcher also provides the user with the ability to
 delete or rename recorded files.
