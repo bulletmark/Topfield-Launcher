@@ -51,7 +51,7 @@ MAXTITLE = 57 #chars
 # Size of bottom select, close buttons
 BUTTON_SIZE = (90, 35)
 
-import sys
+import sys, os
 import subprocess
 import platform
 import urllib2
@@ -118,7 +118,7 @@ def play(player, url):
 
     # Split command + arguments into a list. Also add the url
     # argument.
-    cmd = str(player).split() + [url]
+    cmd = os.path.expanduser(str(player)).split() + [url]
 
     try:
         subprocess.call(cmd)
