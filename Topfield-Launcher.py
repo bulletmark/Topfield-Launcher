@@ -51,7 +51,7 @@ MAXTITLE = 57 #chars
 # Size of bottom select, close buttons
 BUTTON_SIZE = (90, 35)
 
-import sys, os
+import sys, os, re
 import subprocess
 import platform
 import urllib2
@@ -210,11 +210,8 @@ def namecheck(oldname, newname):
     if not newname.endswith('.rec'):
         return 'File name must end with .rec'
 
-    if newname[:-4].find('.') >= 0:
+    if re.sub('^.*/', '', newname[:-4]).find('.') >= 0:
         return 'Extraneous "." in file name'
-
-    if newname.find('/') >= 0:
-        return 'File name must not contain a /'
 
     if len(newname) > MAXTITLE:
         return 'File name %d char[s] too long' % (len(newname) - MAXTITLE)
