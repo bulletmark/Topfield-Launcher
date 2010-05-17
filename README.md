@@ -129,7 +129,7 @@ also corrects the total time length displayed. This patch is superb and
 provides easy ad-skipping functionality. For some odd reason the patch
 has not yet been integrated into the vlc source tree. If you can build
 vlc from source then get the patch from
-http://trac.videolan.org/vlc/ticket/2985. It is worth it.
+<http://trac.videolan.org/vlc/ticket/2985>.
 
 That should be it. Email me if you have any questions.
 
