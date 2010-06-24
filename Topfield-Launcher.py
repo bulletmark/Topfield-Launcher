@@ -529,10 +529,11 @@ class MyPanel(wx.Panel):
         # If this entry has a path then rename it
         if ent.path:
 
-            oldname = basename(ent.path)
+            oldname = re.sub('.rec$', '', basename(ent.path), re.I)
 
             # Put up a prompt
-            dlg = wx.TextEntryDialog(None, 'Rename ' + oldname, 'Rename?')
+            dlg = wx.TextEntryDialog(None, 'Rename "' + oldname + '" to:',
+                    'Rename?')
             dlg.SetValue(oldname)
 
             if dlg.ShowModal() != wx.ID_OK:
