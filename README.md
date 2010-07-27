@@ -1,16 +1,18 @@
 ## Topfield-Launcher
 
-Topfield-Launcher connects to a specified ftpd-topfield host and lists
-recorded files available on the connected Topfield PVR. The user can
-navigate about the PVR directories and select a file to play to his PC.
-The Topfield-Launcher will start the specified media player (VLC is
-recommended) to stream the requested file from the remote PVR, to the
-user's screen.
+Topfield-Launcher connects to a specified
+[ftpd-topfield](http://www.nslu2-linux.org/wiki/Puppy/FtpdTopfield)
+host and lists recorded files available on the connected Topfield PVR.
+The user can navigate about the PVR directories and select a file to
+play to his PC. The Topfield-Launcher will start the specified media
+player (VLC is recommended) to stream the requested file from the remote
+PVR, to the user's screen.
 
 Topfield-Launcher also provides the user with the ability to delete or
 rename recorded files.
 
-See screenshots at <http://wiki.github.com/bulletmark/Topfield-Launcher/>
+See screenshots at
+<http://wiki.github.com/bulletmark/Topfield-Launcher/>.
 
 ### License
 
@@ -29,12 +31,16 @@ Public License at <http://www.gnu.org/licenses/> for more details.
 
 ### Prerequisites
 
-You need a Topfield PVR with a USB connection to a computer or NSLU2 or
-similar device running ftpd-topfield. That instance of ftpd-topfield may
-be running on your own user-end PC, or on another remote PC/server such
-as a NSLU2 to which you have a network connection from your user PC. You
-install Topfield-Launcher and any necessary software as described
-below, on your user PC.
+You need a Topfield PVR with a USB connection to a computer or
+[NSLU2](http://en.wikipedia.org/wiki/NSLU2)
+or similar device running
+[ftpd-topfield](http://www.nslu2-linux.org/wiki/Puppy/FtpdTopfield).
+That instance of
+[ftpd-topfield](http://www.nslu2-linux.org/wiki/Puppy/FtpdTopfield)
+may be running on your own user-end PC, or on another remote PC/server
+such as a NSLU2 to which you have a network connection from your user
+PC. You install Topfield-Launcher and any necessary software as
+described below, on your user PC.
 
 You will find that VLC will not stream recorded files at real-time speed
 unless you have installed the USB accelerator TAP or firmware patch on
@@ -132,12 +138,6 @@ vlc from source then get the patch from
 <http://trac.videolan.org/vlc/ticket/2985>.
 
 That should be it. Email me if you have any questions.
-
-### Release History
-
-* 2010-03-08: Version 1.0
-
-  Initial release, to github.
 
 ### Author
 
