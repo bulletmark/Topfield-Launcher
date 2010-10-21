@@ -22,4 +22,4 @@ PROG = Topfield-Launcher.py
 all:
 
 install:
-	install -D $(PROG) $(HOME)/bin/$(PROG)
+	install -D $(PROG) $(HOME)/bin/
