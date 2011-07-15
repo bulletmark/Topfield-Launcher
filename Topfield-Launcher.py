@@ -210,7 +210,7 @@ def namecheck(oldname, newname):
     if not newname.endswith('.rec'):
         return 'File name must end with .rec'
 
-    if re.sub('^.*/', '', newname[:-4]).find('.') >= 0:
+    if '.' in re.sub('^.*/', '', newname[:-4]):
         return 'Extraneous "." in file name'
 
     if len(newname) > MAXTITLE:
@@ -545,7 +545,7 @@ class MyPanel(wx.Panel):
             dlg.Destroy()
 
             # Append file ext for user convenience
-            if not newname.lower().endswith('.rec') and newname.find('.') < 0:
+            if not newname.lower().endswith('.rec') and '.' not in newname:
                 newname += '.rec'
 
             if oldname == newname:
