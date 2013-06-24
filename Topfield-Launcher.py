@@ -389,7 +389,7 @@ class MyPanel(wx.Panel):
         # Bottom buttons
         hbox2 = wx.BoxSizer(wx.HORIZONTAL)
 
-        btnsel = wx.Button(self, -1, '&Select', size=BUTTON_SIZE)
+        btnsel = wx.Button(self, -1, '&Play', size=BUTTON_SIZE)
         btnsel.Bind(wx.EVT_BUTTON, self.activate)
         hbox2.Add(btnsel, 0, wx.LEFT|wx.BOTTOM, 5)
 
