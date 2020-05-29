@@ -62,8 +62,8 @@ looks and runs as well as on linux.
 2. Install wxpython 2.8+ and dependent packages. Also install the
    python-dateutil 3rd party package and VLC. (e.g. on ubuntu):
 
-        sudo aptitude update 
-        sudo aptitude install python-wxgtk2.8 python-dateutil vlc
+        sudo apt-get update
+        sudo apt-get install python-wxgtk2.8 python-dateutil vlc
 
 3. Click/run Topfield-Launcher.py and ensure player path and Topfield
    host are appropriate for your setup. If you run ftpd-topfield on your
