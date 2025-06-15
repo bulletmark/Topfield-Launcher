@@ -1,12 +1,10 @@
 ## Topfield-Launcher
 
-Topfield-Launcher connects to a specified
-[ftpd-topfield](http://www.nslu2-linux.org/wiki/Puppy/FtpdTopfield) host
-and lists recorded files available on the connected Topfield TF5000 series PVR.
-The user can navigate about the PVR directories and select a file to
-play to his PC. The Topfield-Launcher will start the specified media
-player (VLC is recommended) to stream the requested file from the remote
-PVR, to the user's screen.
+Topfield-Launcher connects to a specified ftpd-topfield host and lists recorded
+files available on the connected Topfield TF5000 series PVR. The user can
+navigate about the PVR directories and select a file to play to his PC. The
+Topfield-Launcher will start the specified media player (VLC is recommended) to
+stream the requested file from the remote PVR, to the user's screen.
 
 Topfield-Launcher also provides the user with the ability to delete or
 rename recorded files.
